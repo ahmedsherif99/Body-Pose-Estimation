@@ -11,8 +11,8 @@ flagi = 1
 # Email Variables
 SMTP_SERVER = 'smtp.gmail.com'  # Email Server (don't change!)
 SMTP_PORT = 587  # Server Port (don't change!)
-GMAIL_USERNAME = 'homealonerobot@gmail.com'  # change this to match your gmail account
-GMAIL_PASSWORD = 'Homealonerobotteam14'  # change this to match your gmail password
+GMAIL_USERNAME = '...@gmail.com'  # change this to match your gmail account
+GMAIL_PASSWORD = '...'  # change this to match your gmail password
 
 
 class Emailer:
@@ -45,7 +45,7 @@ class Emailer:
 
 sender = Emailer()
 
-sendTo = 'ahmedgs2009@gmail.com'
+sendTo = '...@gmail.com'
 emailSubject = "Alert"
 emailContent = "There is an Intruder in the house"
 sendimage = cv2.imread('test.jpg',1)
